@@ -15,7 +15,15 @@ public class Student {
 	private String pwd;
 	private String mobile;
 	private String address;
+	private String pincode;
 	
+	
+	public String getPincode() {
+		return pincode;
+	}
+	public void setPincode(String pincode) {
+		this.pincode = pincode;
+	}
 	public int getId() {
 		return id;
 	}
